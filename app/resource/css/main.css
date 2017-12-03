@@ -1,0 +1,54 @@
+html, body
+{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header
+{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.header .header_nav
+{
+    display: flex;
+}
+
+.header .header_nav .nav_item
+{
+    margin: 5px;
+    list-style-type: none;
+}
+
+/*Footer***************/
+.footer
+{
+    display: flex;
+    padding: 10px;
+
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+/*Category********************/
+.category_list
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.category_list li
+{
+    list-style-type: none;
+}

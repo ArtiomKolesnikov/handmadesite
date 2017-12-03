@@ -4,6 +4,7 @@ class CarController
 {
     public function carList()
     {
-        echo __METHOD__;
+        require_once ROOT . 'app/views/car/allCars.php';
+        return true;
     }
 }
