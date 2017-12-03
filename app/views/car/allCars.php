@@ -1,8 +1,8 @@
 <?php include ROOT . 'app/views/layouts/header.php'; ?>
 <main>
     <ul>
-        <?php foreach($users as $user): ?>
-            <li><?php echo "{$user['name']} {$user['last_name']} - {$user['role']}"; ?></li>
+        <?php foreach($cars as $car): ?>
+            <li><?php echo "{$car['name']}"; ?></li>
         <?php endforeach; ?>
     </ul>
 </main>

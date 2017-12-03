@@ -7,9 +7,15 @@ html, body
 body
 {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+}
+
+li
+{
+    list-style-type: none;
 }
 
 .header
@@ -28,7 +34,6 @@ body
 .header .header_nav .nav_item
 {
     margin: 5px;
-    list-style-type: none;
 }
 
 /*Footer***************/
@@ -44,11 +49,10 @@ body
 /*Category********************/
 .category_list
 {
+    position: absolute;
+    top: 100px;
+    left: 0;
     display: flex;
     flex-direction: column;
-}
-
-.category_list li
-{
-    list-style-type: none;
+    background-color: antiquewhite;
 }
